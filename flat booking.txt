@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<style type="text/css">
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Bree Serif:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+
+.bg1 {
+    background-image: url(https://wallpapers.net/web/wallpapers/maldives-hotel-room-hd-wallpaper/5120x2160.jpg);
+    background-size: cover;
+    height: 100vh;
+}
+
+.empl {
+    height: 300px;
+}
+
+.bg2 {
+    background-size: cover;
+    height: 30vh;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+.ali {
+    text-align: center;
+}
+.transbox{
+margin:30px;
+background-color:#ffffff;
+border:1px solid black;
+opacity:0.6;
+}
+
+.text-main {
+    font-family: "Bree Serif";
+    font-size: 50px;
+    color: #23209d;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.text-des {
+    font-family: "Bree Serif";
+    font-size: 16px;
+    color: 209d2b;
+    font-weight: bold;
+    margin-bottom: 0px;
+}
+
+.but {
+    background-color: #f19116;
+    border-width: 0px;
+    border-radius: 5px;
+    margin-top: 30px;
+    margin-left: 10px;
+}
+
+.bg3 {
+    background-image:url(https://onextrapixel.com/wp-content/uploads/2015/11/music-thumb.jpg);
+    background-color: #FFFFFF;
+    background-size: cover;
+    height:100vh;
+    padding: 20px;
+}
+
+.flat-card {
+    margin: 10px;
+
+}
+
+.img {
+    height: 250px;
+    width: 150px;
+}
+
+.text-card {
+    background-color:white;
+    height: 250px;
+    width:200px;
+}
+
+.main-para {
+    font-family: "Bree Serif";
+    font-size: 14px;
+    color: #0d0535;
+    font-weight: bold;
+    margin-left: 10px;
+}
+
+.main-head {
+    font-family: "Bree Serif";
+    font-size: 30px;
+    color: #0d0535;
+    font-weight: bold;
+    margin-left: 10px;
+
+}
+
+.imag2 {
+    height: 60vh;
+    width: 100vw;
+}
+
+.bg4 {
+    background-color: white;
+    background-size: cover;
+    height: 30vh;
+    padding: 10px;
+}
+
+.empl2 {
+    height: 0px;
+}
+
+.rate {
+    font-family: "Bree Serif";
+    font-size: 16px;
+    color: #f19116;
+    margin-bottom: 10px;
+}
+
+.loc-img {
+    height: 20px;
+    width: 20px;
+    margin-right: 10px;
+}
+
+.text-des2 {
+    font-family: "Bree Serif";
+    font-size: 14px;
+    color: #222222;
+    font-weight: bold;
+    margin-bottom: 0px;
+    
+}
+.bg5{
+background-image:url(https://thumbs.dreamstime.com/b/indoor-plant-white-floor-empty-concrete-wall-background-lounge-coffee-table-near-glass-window-sea-view-living-room-106666847.jpg);
+background-size: cover;
+height: 100vh;
+}
+.text-desc {
+    font-family: "Bree Serif";
+    font-size: 22px;
+    color: black;
+    font-weight: italian;
+    margin-bottom: 0px;
+}
+.imag3 {
+    height: 200px;
+    width: 200px;
+}
+#center{
+text-align:center;
+}
+.he{
+   
+}
+.textimp{
+	text-align:center;
+}
+
+
+</style>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="sectionHome">
+        <div class="bg1">
+            <div class="d-flex flex-column justify-content-center">
+                <div class="empl"></div>
+                <div class="bg2">
+                   <div class=transbox">
+                    <div class="ali">
+                        <h1 class="text-main">Sunrise Avenue</h1>
+                        <p class="text-des">Make your stay memorable</p>
+                        <button class="btn btn-primary but" onclick="display('sectionA')"> BOOK FLAT</button>
+                    </div>
+                  </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="sectionA">
+        <div class="bg3 d-flex flex-column justify-content-center">
+	    
+            <h1 class="text-main text-center">Sunrise Avenue</h1>
+	    <div class="d-flex justify-content-center">
+            <div class="flat-card d-flex flex-row justify-content-center" onclick="display('sectionB')">
+                <img src="https://assets.ccbp.in/frontend/static-website/flats-list-card1-img.png" class="img" />
+                <div class="text-card">
+                    <h1 class="main-head">3BHK flat</h1>
+                    <p class="main-para">this is fully furnished house with </br> handmade furniture including a luxury </br> en-suite facilities pack .its built up area </br>is about 1600sq.ft. a spacious home for </br>you live in</p>
+                </div>
+            </div>
+            <div class="flat-card d-flex flex-row justify-content-center" onclick="display('sectionC')">
+                <img src="https://assets.ccbp.in/frontend/static-website/flats-list-card2-img.png" class="img" />
+                <div class="text-card">
+                    <h1 class="main-head">2BHK flat</h1>
+                    <p class="main-para">this is fully furnished house with </br> handmade furniture including a luxury </br> en-suite facilities pack .its built up area </br>is about 1600sq.ft. a spacious home for </br>you live in</p>
+                </div>
+            </div>
+            <div class="flat-card d-flex flex-row justify-content-center" onclick="display('sectionD')">
+                <img src="https://assets.ccbp.in/frontend/static-website/flats-list-card3-img.png" class="img" />
+                <div class="text-card">
+                    <h1 class="main-head">4BHK flat</h1>
+                    <p class="main-para">this is fully furnished house with </br> handmade furniture including a luxury </br> en-suite facilities pack .its built up area </br>is about 1600sq.ft. a spacious home for </br>you live in</p>
+                </div>
+            </div>
+	    </div>
+            <div>
+            <button class="btn btn-primary but" onclick="display('sectionHome')">Back</button>
+            </div>
+            
+        </div>
+    </div>
+    <div id="sectionB">
+<img src="https://assets.ccbp.in/frontend/static-website/flats-list-d1-img.png" class="imag2" />
+        <div class="empl2"></div>
+        <div class="d-flex flex-column justify-content-end">
+            <div class="bg4">
+                <h1 class="rate">Rs 3000/-</h1>
+                <div class="d-flex flex-row justify-content-start">
+                    <img src="https://assets.ccbp.in/frontend/static-website/flats-list-location-icon-img.png" class="loc-img" />
+                    <p class="main-para">D/N 5-2 Food street,Indore</p>
+                </div>
+                </hr class="he">
+                <h1 class="text-main">Description</h1>
+                <p class="text-des2">this is fully furnished house with </br> handmade furniture including a luxury </br> en-suite facilities pack .its built up area </br>is about 1600sq.ft. a spacious home for </br>you live in</p>
+                <div class="d-flex flex-row justify-content-center">
+                    <button class="btn btn-primary but" onclick="display('sectionE')">Confirm</button>
+                    <button class="btn btn-primary but" onclick="display('sectionA')">Back</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="sectionC">
+
+        <img src="https://assets.ccbp.in/frontend/static-website/flats-list-d2-img.png" class="imag2" />
+        <div class="empl2"></div>
+        <div class="d-flex flex-column justify-content-end">
+            <div class="bg4">
+                <h1 class="rate">Rs 2000/-</h1>
+                <div class="d-flex flex-row justify-content-start">
+                    <img src="https://assets.ccbp.in/frontend/static-website/flats-list-location-icon-img.png" class="loc-img" />
+                    <p class="main-para">D/N 5-2 Food street,Indore</p>
+                </div>
+                </hr class="he">
+                <h1 class="text-main">Description</h1>
+                <p class="text-des2">this is fully furnished house with </br> handmade furniture including a luxury </br> en-suite facilities pack .its built up area </br>is about 1600sq.ft. a spacious home for </br>you live in</p>
+                <div class="d-flex flex-row justify-content-center">
+                    <button class="btn btn-primary but" onclick="display('sectionE')">Confirm</button>
+                    <button class="btn btn-primary but" onclick="display('sectionA')">Back</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="sectionD">
+
+        <img src="https://assets.ccbp.in/frontend/static-website/flats-list-d3-img.png" class="imag2" />
+        <div class="empl2"></div>
+        <div class="d-flex flex-column justify-content-end">
+            <div class="bg4">
+                <h1 class="rate">Rs 4000/-</h1>
+                <div class="d-flex flex-row justify-content-start">
+                    <img src="https://assets.ccbp.in/frontend/static-website/flats-list-location-icon-img.png" class="loc-img" />
+                    <p class="main-para">D/N 5-2 Food street,Indore</p>
+                </div>
+                </hr class="he">
+                <h1 class="text-main">Description</h1>
+                <p class="text-des2">this is fully furnished house with </br> handmade furniture including a luxury </br> en-suite facilities pack .its built up area </br>is about 1600sq.ft. a spacious home for </br>you live in</p>
+                <div class="d-flex flex-row justify-content-center">
+                    <button class="btn btn-primary but" onclick="display('sectionE')">Confirm</button>
+                    <button class="btn btn-primary but" onclick="display('sectionA')">Back</button>
+                </div>
+            </div>
+        </div>
+    </div>
+  <div id="sectionE">
+     <div class="bg5 d-flex flex-column justify-content-center">
+         <div class="text-center">
+                <h1 class="textimp">Booking successfully completed...Have a Good time!</h1>
+               <div id="center">
+                <center><img src="https://image.slidesharecdn.com/thefutureofcancerclosertoacure-150804090601-lva1-app6892/95/the-future-of-cancer-closer-to-a-cure-8-638.jpg?cb=1438679209" class="imag3"/></center>
+                
+               </div>
+		<button class="btn btn-primary but" onclick="display('sectionHome')">Home</button>
+
+            </div>
+</div>
+</div>
+    <script type="text/javascript" src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/js/ccbp-ui-kit.js"></script>
+</body>
+
+</html>

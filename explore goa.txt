@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<style>
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+
+.sizer {
+    height: 70vh;
+}
+
+.bg {
+    background-color: white;
+    background-size: cover;
+    height: 100vh;
+}
+
+.carro {
+    margin: 10px;
+}
+
+.about {
+    font-family: "Roboto";
+    font-size: 52px;
+    font-weight: 600;
+    margin: 5px;
+    color: #323f4b;
+}
+
+.para {
+    font-family: "Roboto";
+    margin: 5px;
+    color: #9aa5b1;
+    font-size: 25px;
+}
+
+.txt-box {
+    margin: 10px;
+}
+
+.more {
+    font-family: "Roboto";
+    font-size: 40px;
+    font-weight: 600;
+    margin: 10px;
+    color: #323f4b;
+}
+
+.p-card {
+    height: 250px;
+    width: 250px;
+    margin: 15px;
+    border-radius: 5px;
+}
+
+.p-card2 {
+    height: 250px;
+    width: 50px;
+    margin: 15px;
+    border-radius: 5px;
+}
+
+.but {
+    height: 50px;
+    width: 120px;
+    margin: 20px;
+}
+</style>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="sectionHome">
+        <div class="bg">
+            <div>
+                <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                    <ol class="carousel-indicators">
+                        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                    </ol>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active sizer">
+                            <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/goa-c1-img.png" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item sizer">
+                            <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/goa-c2-img.png" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item sizer">
+                            <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/goa-c3-img.png" class="d-block w-100" alt="...">
+                        </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </div>
+            </div>
+            <div class="txt-box">
+                <h1 class="about">About</h1>
+                <p class="para">goa is known for its landskape, famous
+                    beaches in india, astounding mounuments and churchs
+                    and busting goa nightlife. goa is one of the most
+                    visited tourist places in india. especially on weekends, as it is not very
+                    far from mumbai and having panaji as its capital and vasco da gama
+                    as the largest city. it attracts a large number of tourists from especially
+                    all over the world, round the year
+                </p>
+            </div>
+            <h1 class="more mt-5">More pictures</h1>
+            <div class="d-flex flex-row justify-content-center">
+                <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/goa-more1-img.png" class="p-card" />
+                <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/goa-more2-img.png" class="p-card" />
+                <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/goa-more3-img.png" class="p-card" />
+            </div>
+            <div class="text-center">
+                <button class="btn btn-primary but mt-5" onclick="display('sectionVideos')">Videos</button>
+            </div>
+
+        </div>
+    </div>
+    <div id="sectionVideos">
+        <div >
+            <div class="embed-responsive embed-responsive-16by9 p-card2">
+                <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/NFalCkZAClY" allowfullscreen></iframe>
+            </div>
+            <div class="embed-responsive embed-responsive-16by9 p-card2">
+                <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/4irzfMfTmM8" allowfullscreen></iframe>
+            </div>
+            <div class="embed-responsive embed-responsive-16by9 p-card2">
+                <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/OJu0gjzsvQE" allowfullscreen></iframe>
+            </div>
+        </div>
+        <div class="text-center">
+            <button class="btn btn-primary but mt-5" onclick="display('sectionHome')">Home</button>
+        </div>
+    </div>
+    <script type="text/javascript" src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/js/ccbp-ui-kit.js"></script>
+</body>
+
+</html>
